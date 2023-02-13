@@ -1,0 +1,113 @@
+ /* 
+  background: rgb(0, 0, 0);
+  background: rgb(51, 51, 51);
+  background: rgb(102, 102, 102);
+  background: rgb(153, 153, 153);
+  background: rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+
+ */
+ #grid {
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  grid-template-rows: 75px repeat(3, 1fr) ;
+  height: 40vh;
+}
+.nameSize {
+  font-size: calc(1.0rem + 1.5vw);
+  padding-top: 1rem;
+}
+#navlist {
+  display: flex;
+}
+#greeting{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background: rgb(128, 128, 128);
+}
+
+#partsNav {
+  list-style-type: none;
+  background: rgb(217, 217, 217);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+  font-size: calc(1.2vw + .8vh)
+}
+#userOptions {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  background: rgb(0, 0, 0);
+  overflow: auto;
+
+}
+/*
+.box4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+.box5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+.box6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 8;
+}  */
+/* #partsNav {
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+  font-size: calc(1.2vw + .8vh)
+} */
+
+#partsNavList {
+  width: 1px;
+  position: relative;
+  left: 15%;
+  top: 10%;
+  font-size: calc(.8vw + .4vh)
+}
+
+.partsCategorySelection {
+  cursor: pointer;
+  margin-bottom: 2%; 
+  color:rgb(51, 51, 51);
+  border: none;
+  background: rgb(217, 217, 217);
+}
+
+.partsCategorySelection:hover {
+  text-decoration: underline;
+   color:rgb(255, 255, 255)
+}
+
+#emailStyle {
+  margin-top: 20px;
+  font-size: calc(1.2vw + .8vh)
+}
+
+span#emailDot{
+  background:greenyellow;
+  color: black;
+  border-radius: 50%;
+  font-size: calc(.6vw + .4vh);
+  position: relative;
+  top: -7px;
+  left: 4px;
+  padding:.25rem;
+}

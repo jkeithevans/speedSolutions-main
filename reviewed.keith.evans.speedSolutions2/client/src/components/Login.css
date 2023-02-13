@@ -1,0 +1,75 @@
+.loginUserDiv{
+  width:80%;
+  background: rgb(227, 227, 227);
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 2% 0% 4% 10%;
+  padding: 10px 5px;
+  box-shadow: 0px 5px 8px 1px black;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;*/
+} 
+#loginPic1 {
+  display:none;
+
+}
+#loginPic2 {
+  display:none;
+}
+
+.row {
+  width: 100%;
+  flex-direction: column;
+  /* text-align: center; */
+  margin-bottom: 5%;
+}
+/* #formCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+@media only screen and (min-width: 670px) {}
+
+@media only screen and (min-width: 870px) {
+  #loginPic1 {
+     height: 10%;
+     width: 20%;
+     margin-left: 5%;
+     margin-top: 5vh;
+     display:block;
+     box-shadow: 0px 5px 8px 1px black;
+     margin-bottom: 5%
+   }
+   
+   #loginPic2 {
+     height: 10%;
+     width: 20%;
+     margin-right: 5%;
+     margin-top: 5vh;
+     display:block;
+     box-shadow: 0px 5px 8px 1px black;
+   }
+   .loginUserDiv {
+     width: 40%;
+     margin: 2% 5% 4% 5%;
+   }
+
+   .row {
+     flex-direction: row;
+   }
+}
+
+@media only screen and (min-width: 1200px) {
+  #loginPic1 { margin-top: 2vh; }
+   
+   #loginPic2 { margin-top: 2vh; }
+
+   /* .createUserDiv{
+     width:50%
+   } */
+}

@@ -1,0 +1,227 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid greenyellow */
+}
+/* main.listPage {
+  background-image: url('../../images/mustangBg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 96%;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-family: sans-serif;
+} */
+
+
+/* main .listGroup {
+   position: relative;
+  display: inline-block;
+
+  left: 5vw;
+  width: 90%;
+  height: 100%;
+  
+} */
+
+
+/* form.listForm {
+  position: relative;
+  display: inline-block;
+  float:  left; 
+  left: 25%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, .55);
+} */
+
+/* form div{
+  height: 45px;
+  width: 48%;
+  float: left;
+  margin-bottom: 2vh;
+  display: block;
+} */
+
+
+/* form div#textarea{
+  height: 21vh;
+  width: 100%;
+  text-align: center;
+} */
+
+/* form div#subButton{
+  width: 100%;
+  text-align: center;
+} */
+
+/* form.listForm input {
+  font-size: 20px;
+  padding: 3px;
+  border-radius: 7px;
+  width: 250px;
+  margin-bottom: 20px;
+ } */
+
+/* form.listForm button {
+  font-size: 20px;
+  padding: 3px;
+  border-radius: 7px;
+  margin-left: 5px;
+  background-color: blue;
+  border: 2px groove darkblue;
+  color: white;
+  box-shadow: 3px 3px 10px #333;
+  transition: all .3s;
+  
+} */
+
+
+/* form.listForm button:hover {
+  transform: scale(1.03);
+} */
+
+div.listItem p {
+  display: inline-block;
+  font-size: 20px;  
+  color: white;
+}
+
+div.listItem button {
+  display: inline-block;
+  font-size: 20px;
+  /* width: 30px; */
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  background-color: rgb(108, 3, 3);
+  color: yellow;
+}
+
+div.listItem button div {
+  padding-bottom: 2px;
+}
+
+div.listItem button:hover {
+  cursor: pointer;
+}
+
+/* .bx {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 40px;
+  left: 40vw;
+  background-color: gray;
+  margin-bottom: 2vh;
+  border-radius: 7px;
+} */
+/* 
+div.listItem  button.delete{
+  width: 28px;
+  display: block;
+} */
+
+
+
+/* form .addPartsInput { 
+  border-radius: 5px;
+}
+.partsButtons {
+  margin-left: 3%;
+  width: 150px;
+  background: black;
+  color:rgb(227, 227, 227);
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px greenyellow; 
+
+}
+.partsButtons:active {
+  transform: scale(1.03);
+  position: relative;
+  top: 5px;
+  box-shadow: 0px 0px 10px 0px greenyellow
+}
+
+.form-group {
+  margin-bottom: 3px !important;
+}
+
+form div label {
+  width: 20%;
+  text-align: right;
+}
+form div .labelColor {
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  } */
+
+  
+/* div.divName{
+  float: right;
+} */
+/* @media only screen and (max-width: 875px) { */
+  /* form.listForm input {
+    height: 25px;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 7px;
+    width: 150px;
+    margin-bottom: 10px;
+   } */
+
+  /* .bx {
+    height: 25px;
+    font-size: 10px;
+    width: 150px;
+    left: 40vw;
+    background-color: gray;  
+  } */
+
+  
+  
+/* } */
+
+@media only screen and (min-width: 870px){
+  /* form div label {
+    width: 15%;
+    text-align: right;
+    font-size: 15px;
+  }
+  
+  form .addPartsInput { 
+    width: 30%;
+  }
+  form div .labelColor {
+    font-size: 15px;
+   
+    } */
+  
+  div.listItem p {
+    font-size: 15px;  
+  }
+  
+  div.listItem button {
+    font-size: 15px;
+  }  
+  
+  /* div.divName {
+    height: 45px;
+  } */
+}
+/* @media only screen and (max-width: 600px) {
+  form div{
+    width: 100%;
+    text-align: center;
+  }
+
+  form div label {
+    width: 40%;
+    text-align: right;
+  }
+
+  form div#textarea {
+    width: 96%;
+    margin: 2%;
+  }
+} */

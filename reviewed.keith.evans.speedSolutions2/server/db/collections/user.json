@@ -1,0 +1,60 @@
+[
+	{
+		"_id" : {	"$oid": "61cb3990f9609a36a8797ac7" },
+		"loggedIn" : true,
+		"email" : "bigBlocks@aol.com",
+		"password" : "$2b$10$2UuckHG9fgNRrDMSrFT8gekoEF.FbBC25h9Png1L5rx96qfY1jq6O",
+		"userName" : "QuickShift",
+		"address" : "289 Small Block Ave",
+		"city" : "Crothersville",
+		"zip" : "47389",
+		"partRefId" : [
+			{ "$oid": "61cb3ea1f9609a36a8797aee" },
+			{ "$oid": "61cb3f39f9609a36a8797b04" },
+			{ "$oid": "61cb3fcaf9609a36a8797b08" }
+		],
+		"emailRefId" : [ ],
+		"createdAt" :  { "$date": "2021-12-28T16:21:36.748Z" },
+		"updatedAt" :  { "$date": "2021-12-28T16:48:10.917Z" },
+		"__v" : 0
+	},
+	{
+		"_id" : { "$oid": "61cb39e3f9609a36a8797aca" },
+		"loggedIn" : true,
+		"email" : "hotRods@gmail.com",
+		"password" : "$2b$10$nU8J9wKHdXerDFk2JozaYua3sFmugqVc1SZvNlw7r9KiFvPYUWDxu",
+		"userName" : "Fast5.0",
+		"address" : "429 Big Block Lane",
+		"city" : "GoFast",
+		"zip" : "47102",
+		"partRefId" : [
+			 { "$oid": "61cb3bd3f9609a36a8797adc" },
+			 { "$oid": "61cb3c0ff9609a36a8797ae0" },
+			 { "$oid": "61cb3c73f9609a36a8797ae4" }
+		],
+		"emailRefId" : [ ],
+		"createdAt" :  { "$date": "2021-12-28T16:22:59.434Z" },
+		"updatedAt" :  { "$date": "2021-12-28T16:33:55.604Z" },
+		"__v" : 0
+	},
+	{
+		"_id" : { "$oid": "61cb39f7f9609a36a8797acd" },
+		"loggedIn" : true,
+		"email" : "whatsup@gmail.com",
+		"password" : "$2b$10$htMcVHNY4d7lz4hFkCr6r.yU7/gg4l85L5xA8DSbaZMCpgnHxEX8u",
+		"userName" : "meanGT",
+		"address" : "657 N Side St",
+		"city" : "Seymour",
+		"zip" : "47274",
+		"partRefId" : [
+			{ "$oid": "61cb3a26f9609a36a8797acf" },
+			{ "$oid": "61cb3aa8f9609a36a8797ad2" },
+			{ "$oid": "61cb3b61f9609a36a8797ad6" }
+		],
+		"emailRefId" : [ ],
+		"createdAt" : { "$date": "2021-12-28T16:23:19.624Z" },
+		"updatedAt" : { "$date": "2021-12-28T16:29:21.628Z"  },
+		"__v" : 0
+	}
+]
+

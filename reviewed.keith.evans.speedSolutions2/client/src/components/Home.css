@@ -1,0 +1,42 @@
+* {
+  /* border:1px solid black; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* div.homePage {
+  height: 100%;
+  width: 100%
+} */
+
+#welcome {
+  padding-top: 40px;
+}
+
+.signIn{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 5px;
+  position: relative;
+  left: 10%;
+  background: rgb(227, 227, 227);
+  width:80%;
+  margin: 3% 0 6%;
+  box-shadow: 0px 5px 8px 1px black;
+}
+
+#buttonDiv {
+  text-align: center;
+}
+
+.userButtons, #cancelButton {
+  width: 150px;
+  background: black;
+  color:rgb(227, 227, 227);
+  border-radius: 5px;
+ 
+}
+#cancelButton, #loginProfile {
+  margin-left: 2%;
+}
